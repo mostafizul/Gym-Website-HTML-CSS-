@@ -55,6 +55,8 @@ header{
 .submenu{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    width: 100%;
 }
 .submenu li{
     position: relative;
@@ -70,6 +72,20 @@ header{
     left: 100%;
     width: 100%;
 }
+.submenu-1 li{
+    position: relative;
+}
+.submenu-1 li:hover .submenu-2 > li{
+    display: block;
+}
+.submenu-2{
+    flex-direction: column;
+    position: absolute;
+    top:0px;
+    left: 100%;
+    width: 100%;
+}
+
 .fa-arrow-down,.fa-arrow-right{
     margin-left: 10px;
 }
