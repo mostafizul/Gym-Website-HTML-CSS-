@@ -227,8 +227,6 @@ nav .search-bar input[type=text]{
     background-size: cover;
     display: flex;
     justify-content: flex-end;
-    z-index: -1; 
-    position: absolute;   
 }
 .home-content{
     flex-basis: 50%;
@@ -273,7 +271,7 @@ nav .search-bar input[type=text]{
 .pop-menu{
     position: absolute;
     left: 0px;
-    top:40px;
+    top:48%;
     background-color: white;
     width: 30%;
 }
@@ -325,11 +323,7 @@ button:hover{
 }
 #home-men{
     width: 100%;
-    overflow: hidden;
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1; 
-    position: absolute;   
+    background-color: black;
+    height: 30px;
+    
 }
