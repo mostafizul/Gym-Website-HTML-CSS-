@@ -1,28 +1,66 @@
 @media(max-width:800px){
-    .nav-menu a{
-        justify-content: start;
-        padding-left: 50px;
-        border: 1px solid greenyellow;
+    label{
+        display: flex;
     }
-    .submenu-one a,.submenu-two a,.submenu-three a{
-        padding-left: 80px;
-    }
-    .submenu-one-one a,.submenu-one-two a{
-        padding-left: 110px;
-    }
-    .nav-menu ul{
-        flex-direction: column;
-    }
-    .nav-menu ul li,.submenu-one-one,.submenu-one-two,.submenu-two,.submenu-three{
-        position: static;
-    }
-    .search-bar{
+    .nav-menu ul li{
         display: none;
+      }
+      #toggle:checked + .nav-menu ul li{  
+          display: flex;
+          flex-direction: column;
+      }
+      nav{
+          flex-direction: column;
+      }
+      .nav-menu{
+          order: 1;
+          padding-left: 0px;
+          border-top: 2px solid greenyellow;
+          padding-top: 20px;
+      }
+      nav .search-bar{
+          width: 100%;
+          background-color: #2D3E50;
+          border-top: 2px solid white;
+          padding: 15px 0px;
+          justify-content: center;
+          display: flex;
+     } 
+     .fa-search{
+        color: white;
+        position: absolute;
+        margin-top: 13px;
+        margin-left: 60%;
     }
-    .nav-menu{
-        padding: 0px;
-    }
-    
+     nav .search-bar input[type=text]{
+         height: 25px;
+         width: 60%;
+         border-top: none;
+         border-right: none;
+         border-left: none;
+         background-color: #2D3E50;
+         color: white;
+         font-size: 20px;
+         position: relative;
+     }
+     .nav-menu ul{
+         display: flex;
+         flex-direction: column;
+     }
+     .nav-menu ul{
+         position: static;
+     }
+     .nav-menu a{
+         display: flex;
+         justify-content: start;
+         padding-left: 20px;
+     }
+     .submenu-one a,.submenu-two a,.submenu-three a{
+         padding-left: 50px;
+     }
+     .submenu-one-one a,.submenu-one-two a{
+        padding-left: 80px;
+     }
 }
 @media(max-width:768px){
     .upper-header{
