@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
 }
-header{
+body{
     overflow: hidden;
 }
 .upper-header{
@@ -232,7 +232,6 @@ nav .search-bar input[type=text]{
     justify-content: flex-end;
     z-index: -1; 
     position: absolute;   
-    overflow: hidden;
 }
 .home-content{
     flex-basis: 50%;
