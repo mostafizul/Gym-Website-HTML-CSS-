@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
 }
-body{
-    overflow: hidden;
-}
 .upper-header{
    width: 100%;
    height: auto;
@@ -223,7 +220,7 @@ nav .search-bar input[type=text]{
 #home{
     width: 100%;
     overflow: hidden;
-    height: 500px;
+    height: 700px;
     background-image: url('../asset/img/home-img.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -248,17 +245,21 @@ nav .search-bar input[type=text]{
    height: 45px;
    width: 200px;
    font-size: 18px;
-   background-color:rgb(235, 97, 51);
    border: none;
    color: white;
    border-radius: 50px;
    transition: 0.3s ease;
    text-transform: uppercase;
    padding: 12px 20px;
+   animation: color 10s linear infinite;
+   font-weight: bold;
 }
-.home-content label .home-btn:hover{
-    background-color: rgb(7, 204, 138);
-    font-weight: bold;
+@keyframes color{
+    from{   background-color:rgb(235, 97, 51);
+    }
+    to{
+        background-color: rgb(30, 216, 30) ;
+    }
 }
 .pop-menu ul li{
     display: none;
@@ -272,9 +273,63 @@ nav .search-bar input[type=text]{
 .pop-menu{
     position: absolute;
     left: 0px;
-    top:10px;
+    top:40px;
     background-color: white;
     width: 30%;
 }
-
-
+.pop-menu ul li{
+    justify-content: center;
+    padding: 10px 0px;
+}
+.pop-menu input[type=text],select,button{
+    width: 80%;
+    height: 30px;
+    font-size: 17px;
+}
+.radio{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;    
+}
+.radio input[type=radio]{
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.pop-menu textarea{
+    width: 80%;
+    height: 100px;
+    font-size: 17px;
+}
+.pop-menu h2{
+    text-transform: uppercase;
+    background-color:  greenyellow;
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 20px ;
+    background-color: rgb(8, 250, 169);
+    border: none;
+    font-size: 20px;
+    color: black;
+    transition: .3s ease;
+}
+button:hover{
+    background-color: rgb(34, 223, 160);
+}
+.pop-menu  ::placeholder{
+    font-size: 17px;
+    color: black;
+}
+#home-men{
+    width: 100%;
+    overflow: hidden;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; 
+    position: absolute;   
+}
