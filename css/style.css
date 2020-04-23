@@ -192,7 +192,13 @@ nav{
     position: absolute;
     width: 100%;
     left: 100%;
-    top:0px;
+    top:10px;
+}
+.submenu-one li:nth-child(1),.submenu-one-two li:nth-child(2),.submenu-two li:nth-child(1),.submenu-three li:nth-child(1){
+    border-bottom: 1px solid white;
+}
+.submenu-two li:nth-child(2){
+    border-bottom: 1.5px solid white;
 }
 .search-bar{
     flex: 1.5;
@@ -220,7 +226,7 @@ nav .search-bar input[type=text]{
 #home{
     width: 100%;
     overflow: hidden;
-    height: 700px;
+    height: 650px;
     background-image: url('../asset/img/home-img.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -271,7 +277,7 @@ nav .search-bar input[type=text]{
 .pop-menu{
     position: absolute;
     left: 0px;
-    top:48%;
+    top:50%;
     background-color: white;
     width: 30%;
 }
@@ -287,11 +293,12 @@ nav .search-bar input[type=text]{
 .radio{
     display: flex;
     justify-content: center;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
 .radio input[type=radio]{
-  margin-left: 10px;
-  margin-top: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 7px;
 }
 .pop-menu textarea{
     width: 80%;
@@ -325,5 +332,7 @@ button:hover{
     width: 100%;
     background-color: black;
     height: 30px;
-    
+}
+.submenu-one-one i,.submenu-one-two i,.submenu-two i,.submenu-three i{
+    display: none;
 }

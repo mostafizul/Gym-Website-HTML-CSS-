@@ -79,7 +79,13 @@
         color: greenyellow;
         font-size: 15px;
      }
-
+     .nav-menu li:nth-child(n){
+        border: none;
+     }
+     .submenu-one-one i,.submenu-one-two i,.submenu-two i,.submenu-three i{
+        display: flex;
+        padding-right: 8px;
+    }
 }
 @media(max-width:768px){
     .upper-header{
