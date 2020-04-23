@@ -381,3 +381,73 @@ button:hover{
     color: white;
     font-size: 14px;
 }
+#facility{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    border-bottom: 0.4px solid black;
+}
+.facility-box{
+    text-align: center;
+    flex-basis: 25%;
+    background-color: rgb(247, 247, 247);
+    z-index: 1;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 2px;
+    padding: 0px 15px;
+}
+.facility-box h1{
+    margin: 10px 0px;
+}
+.facility-box p{
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+.detail{
+    color: #FF7F50;
+}
+#men-sessions{
+    width: 100%;
+    overflow: hidden; 
+    height: auto;
+    display: flex;
+    color: white;
+    margin-bottom: 20px;
+}
+.men-ss-img{
+    height: 432px;
+}
+.men-ss-img img{
+    width: 80%;
+}
+.right-side-one{
+    flex-direction: column;
+    flex: 3;
+    margin-left: -140px;
+    background-color: #1E1E1E;
+}
+#men-sessions .content-box{
+   padding: 20px 15px;
+   height: 216px;
+}
+.right-side-two{
+    flex-direction: column;
+    flex: 3;
+    background-color: #141414;
+}
+.content-box p{
+    text-align: justify;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #B3B3B3;
+}
+.fa-heart,.fa-dumbbell,.fa-bullseye{
+    color: #D55141;
+    font-size: 30px;
+}

@@ -1,3 +1,23 @@
+@media(max-width:999px){
+    #men-sessions{
+        flex-direction: column;
+        height: auto;
+    }
+    .men-ss-img img{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .right-side-one{
+        margin: -5px;
+    }
+    #men-sessions .content-box{
+        padding: 20px 15px;
+        height: auto;
+     }
+     .men-ss-img{
+         height: auto;
+     }
+}
 @media(max-width:800px){
     nav label{
         display: flex;
@@ -100,7 +120,13 @@
     }
     .pop-menu input[type=text],select,textarea{
         border: 1px solid black;
-    }    
+    }
+    #facility{
+        flex-direction: column;
+    }
+    .facility-box{
+        margin-left: 20px;
+    }
 }
 @media(max-width:768px){
     .upper-header{
