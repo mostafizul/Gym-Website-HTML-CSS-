@@ -1,3 +1,7 @@
+@media(max-width:1099px){
+
+}
+
 @media(max-width:999px){
     #men-sessions{
         flex-direction: column;
@@ -17,6 +21,26 @@
      .men-ss-img{
          height: auto;
      }
+     .gy-body{
+        flex-direction: column;
+    }
+    .gy-right img{
+        width: 450px;
+        height: 450px;
+        margin-top: -10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 60px;
+    }
+   .gy-right{
+        text-align: center;
+    }
+    .gy-left{
+        margin-left: 30px;
+    }
+    .gy-left h2{
+        font-size: 25px;
+    }
 }
 @media(max-width:800px){
     nav label{

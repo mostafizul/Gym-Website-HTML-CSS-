@@ -451,3 +451,46 @@ button:hover{
     color: #D55141;
     font-size: 30px;
 }
+#girl-yoga{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+#girl-yoga .gy-head{
+   margin-top: 40px;
+   margin-bottom: 70px;
+   text-align: center;
+}
+#girl-yoga .gy-body{
+    display: flex;
+    margin-bottom: 60px;
+}
+.gy-right img{
+    width: 450px;
+    height: 450px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.gy-left h2{
+    text-transform: uppercase;
+    color: #F82366;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.gy-left-content{
+    display: flex;
+    margin-bottom: 20px;
+}
+.gy-left-img img{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.gy-left-content-box h1{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.gy-left-content-box p{
+    text-align: justify;
+    margin-right: 40px;
+}
