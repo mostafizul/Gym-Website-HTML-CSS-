@@ -163,6 +163,7 @@
     .mh-two p,.mh-three p,.mh-four button{
         margin-bottom: 10px;
     }
+    
 }
 @media(max-width:411px){
     .mh-two p,.mh-three p,.mh-four button,.uh-left-side p{
@@ -173,6 +174,17 @@
     }
     .home-content p{
        font-size: 13px;
+    }
+    .gy-right img{
+        width: 250px;
+        height: 250px;
+    }
+    .gy-left-content-box h1,p{
+        font-size: 18px;
+    }
+    .gy-head h1,p{
+        font-size: 18px;
+        margin: 0px 10px;
     }
 }
 
