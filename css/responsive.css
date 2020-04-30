@@ -165,6 +165,16 @@
     }
     
 }
+@media(max-width:414px){
+    .class-trainer button{
+        width: 30%;
+        margin-top: 30px;
+        margin-left: 20px;
+        height: 50px;
+        font-size: 12px;
+        background: linear-gradient(to right,rgb(241, 125, 121),rgb(236, 94, 89));
+    }
+}
 @media(max-width:411px){
     .mh-two p,.mh-three p,.mh-four button,.uh-left-side p{
         font-size: 13px;
@@ -185,6 +195,18 @@
     .gy-head h1,p{
         font-size: 18px;
         margin: 0px 10px;
+    }
+    .trainer-info p{
+        font-size: 12px;
+        margin-top: 7px;
+    }
+    .class-trainer button{
+        width: 30%;
+        margin-top: 30px;
+        margin-left: 10px;
+        height: 50px;
+        font-size: 12px;
+        background: linear-gradient(to right,rgb(241, 125, 121),rgb(236, 94, 89));
     }
 }
 
