@@ -162,8 +162,9 @@
     }
     .mh-two p,.mh-three p,.mh-four button{
         margin-bottom: 10px;
+    }.scroll-head p{
+        font-size: 13px;
     }
-    
 }
 @media(max-width:414px){
     .class-trainer button{
@@ -173,6 +174,12 @@
         height: 50px;
         font-size: 12px;
         background: linear-gradient(to right,rgb(241, 125, 121),rgb(236, 94, 89));
+    }
+    .membership-box-price{
+        width:50%;
+    }
+    .scroll-head p{
+        font-size: 11px;
     }
 }
 @media(max-width:411px){

@@ -106,6 +106,29 @@
     font-size: 17px;
     animation: heartbeat 0.8s linear infinite;
 }
+.scroll-head{
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll-head p{
+    font-size: 24px;
+    font-weight: 900;
+    animation: scroll;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color: red;
+}
+@keyframes scroll{
+    from { margin-right: 0%;
+        width: 100%;}
+    to { margin-left: 30%;
+        width: 100%;}
+}
 #toggle,nav label{
     display: none;
 }
@@ -659,8 +682,10 @@ button:hover{
     margin-bottom: 30px;
     margin-right: 20px;
     margin-left: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 5px 0px black;
 }
-.membership-box-head{
+.membership-box-head-1,.membership-box-head-2,.membership-box-head-3,.membership-box-head-4{
     height: 200px;
     background-color: #FDB07D;
     display: flex;
@@ -668,12 +693,25 @@ button:hover{
     justify-content: center;
     align-items: center;
     position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.membership-box-head .mbh-type{
+.membership-box-head-2{
+    background-color: #FA8F70;
+}
+.membership-box-head-3{
+    background-color: #F2786F;
+}
+.membership-box-head-4{
+    background-color: #F65D5D;
+}
+.membership-box-head-1 .mbh-type,.membership-box-head-2 .mbh-type,.membership-box-head-3 .mbh-type,.membership-box-head-4 .mbh-type{
     position: absolute;
     top: 14%;
     color: white;
     font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 .membership-box-price{
     width:38%;
@@ -713,6 +751,8 @@ button:hover{
     font-size: 25px;
     color: rgb(216, 78, 39);
     text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 .membership:hover{
     background:linear-gradient(to right,#FA8F70,rgb(240, 115, 80));
