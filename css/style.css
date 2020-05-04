@@ -126,7 +126,7 @@
 @keyframes scroll{
     from { margin-right: 0%;
         width: 100%;}
-    to { margin-left: 30%;
+    to { margin-left: 26%;
         width: 100%;}
 }
 #toggle,nav label{
