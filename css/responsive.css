@@ -1,5 +1,38 @@
-@media(max-width:1099px){
-
+@media(max-width:1001px){
+   .contact-body{
+       flex-direction: column;
+       display: flex;
+   }
+   .contact-right{
+       display: flex;
+       justify-content: center;
+   }
+   .contact-left h1,p{
+       text-align: center;
+   }
+   .contact-form{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .contact-form input{
+    width: 95%;
+    margin-bottom: 20px;
+ }
+ .input-1,.input-2{
+     margin-bottom: 0px;
+ }
+ .input-left-1,.input-left-2{
+    margin-right: 0px;
+}
+.contact-form button{
+    width: 95%;
+}
+.contact-left{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+  
 }
 
 @media(max-width:999px){

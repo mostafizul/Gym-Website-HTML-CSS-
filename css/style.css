@@ -758,4 +758,74 @@ button:hover{
     background:linear-gradient(to right,#FA8F70,rgb(240, 115, 80));
     color: white;
     font-weight: bold;
-}    
+} 
+#contact-us{
+    width: 100%;
+    overflow: hidden;
+}
+.contact-body{
+    display: flex;
+}   
+.contact-right,.contact-left .contact-form{
+    width: 100%;
+}
+.contact-right img{
+    width: 80%;
+    height: 500px;
+    margin: 100px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px #666666;
+}
+.contact-left{
+   margin-top: 100px;
+   margin-left: 2px;
+   margin-right: 80px;
+}
+.contact-left h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.contact-left p{
+   color: #666666;
+    margin-top: 20px;
+}
+.contact-form{
+    margin-top: 50px;
+}
+.contact-form input{
+    width: 45%;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #666666;
+    padding: 20px;
+}
+.contact-form textarea{
+    width: 95%;
+    height: 100px;
+    border: 1px solid #666666;
+    padding: 20px;
+    border-radius: 20px;
+}
+.input-1,.input-2{
+    margin-bottom: 30px;
+}
+.input-left-1,.input-left-2{
+    margin-right: 20px;
+}
+.contact-form button{
+    margin-top: 30px;
+    width: 50%;
+    height: 50px;
+    background:linear-gradient(to right,rgb(235, 144, 119),rgb(235, 107, 72));
+    color: white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: .3s ease;
+    font-size: 20px;
+}
+.contact-form button:hover{
+    background:white;
+    border: 3px solid rgb(235, 107, 72);
+    color: rgb(235, 107, 72);
+}   
