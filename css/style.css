@@ -763,6 +763,16 @@ button:hover{
     width: 100%;
     overflow: hidden;
 }
+#contact-us h2{
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#contact-us .head{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 .contact-body{
     display: flex;
 }   
